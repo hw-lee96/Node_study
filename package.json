@@ -1,0 +1,15 @@
+{
+  "name": "nodeweb",
+  "version": "1.0.0",
+  "description": "회사 업무 보조",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "author": "hwlee",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
