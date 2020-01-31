@@ -1,5 +1,5 @@
 const http = require('http');
-const router = require('./router');
+const router = require('./middleware/router');
 
 var port = (process.argv[2] == null ? 8080 : parseInt(process.argv[2]));
 

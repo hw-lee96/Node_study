@@ -1,6 +1,9 @@
 const fs = require('fs');
 const urlParser = require('url');
 
+// 관리하는 페이지가 많아짐에 따라서 코드의 복잡도가 급격히 높아지게 됩니다. 복잡도를 낮추는 방법이 라우터입니다.  
+// 출처 : 생활코딩
+
 module.exports = {
     init : function (req, res) {
         var path = urlParser.parse(req.url).pathname.split('/');
