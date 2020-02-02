@@ -8,18 +8,3 @@ http.createServer( (req, res) => {
 }).listen(port, () => {
     console.log(`${port} start!`);
 });
-
-
-
-// http.createServer( (req, res) => {
-//     if ( req.url ) {
-
-//         fs.readFile( './index', (err, data) => {
-//             if (err) throw err;
-//             res.end(data);
-//         });
-//     }
-// }).listen(port, () => {
-//     console.log(`node web server start! : ${port}`);
-// });
-
